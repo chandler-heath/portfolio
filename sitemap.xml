@@ -1,83 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-    <url>
-        <loc>
-            https://www.chandlerheath.nz
-        </loc>
-    </url>
-    <url>
-        <loc>
-            https://www.chandlerheath.nz/cv
-        </loc>
-    </url>
-    <url>
-        <loc>
-            https://www.chandlerheath.nz/projects/locations-of-interest
-        </loc>
-    </url>
-    <url>
-        <loc>
-            https://www.chandlerheath.nz/projects/modica-inbox
-        </loc>
-    </url>
-    <url>
-        <loc>
-            https://www.chandlerheath.nz/projects/eyemagnet-dashboard
-        </loc>
-    </url>
-    <url>
-        <loc>
-            https://www.chandlerheath.nz/projects/eyemagnet-website
-        </loc>
-    </url>
-    <url>
-        <loc>
-            https://www.chandlerheath.nz/projects/sky-stadium-mobile-app
-        </loc>
-    </url>
-    <url>
-        <loc>
-            https://www.chandlerheath.nz/projects/modica-style-guide
-        </loc>
-    </url>
-    <url>
-        <loc>
-            https://www.chandlerheath.nz/projects/westpac-digital-marketing
-        </loc>
-    </url>
-    <url>
-        <loc>
-            https://www.chandlerheath.nz/projects/officemax-digital-signage
-        </loc>
-    </url>
-    <url>
-        <loc>
-            https://www.chandlerheath.nz/projects/panasonic-showreel
-        </loc>
-    </url>
-    <url>
-        <loc>
-            https://www.chandlerheath.nz/projects/nz-parliament-interface
-        </loc>
-    </url>
-    <url>
-        <loc>
-            https://www.chandlerheath.nz/projects/daffodil-day-campaign
-        </loc>
-    </url>
-    <url>
-        <loc>
-            https://www.chandlerheath.nz/projects/parttimer-interface
-        </loc>
-    </url>
-    <url>
-        <loc>
-            https://www.chandlerheath.nz/projects/domain-name-commission-website
-        </loc>
-    </url>
-    <url>
-        <loc>
-            https://www.chandlerheath.nz/projects/cityon-mobile-app
-        </loc>
-    </url>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://chandlerheath.nz/</loc>
+  <lastmod>2024-09-06T05:49:34+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://chandlerheath.nz/index.html</loc>
+  <lastmod>2024-09-06T05:49:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://chandlerheath.nz/projects/modica-inbox.html</loc>
+  <lastmod>2024-09-06T05:49:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://chandlerheath.nz/projects/locations-of-interest.html</loc>
+  <lastmod>2024-09-06T05:49:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://chandlerheath.nz/projects/sky-stadium-mobile-app.html</loc>
+  <lastmod>2024-09-06T05:49:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://chandlerheath.nz/projects/eyemagnet-website.html</loc>
+  <lastmod>2024-09-06T05:49:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://chandlerheath.nz/projects/modica-style-guide.html</loc>
+  <lastmod>2024-09-06T05:49:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://chandlerheath.nz/projects/nz-parliament-interface.html</loc>
+  <lastmod>2024-09-06T05:49:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://chandlerheath.nz/projects/westpac-digital-marketing.html</loc>
+  <lastmod>2024-09-06T05:49:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://chandlerheath.nz/projects/eyemagnet-dashboard.html</loc>
+  <lastmod>2024-09-06T05:49:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://chandlerheath.nz/projects/officemax-digital-signage.html</loc>
+  <lastmod>2024-09-06T05:49:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://chandlerheath.nz/projects/panasonic-showreel.html</loc>
+  <lastmod>2024-09-06T05:49:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://chandlerheath.nz/projects/daffodil-day-campaign.html</loc>
+  <lastmod>2024-09-06T05:49:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://chandlerheath.nz/projects/domain-name-commission-website.html</loc>
+  <lastmod>2024-09-06T05:49:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://chandlerheath.nz/projects/cityon-mobile-app.html</loc>
+  <lastmod>2024-09-06T05:49:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://chandlerheath.nz/projects/parttimer-interface.html</loc>
+  <lastmod>2024-09-06T05:49:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
 </urlset>
