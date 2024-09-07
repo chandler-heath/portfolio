@@ -24,6 +24,14 @@ body {
   line-height: 25px;
 }
 
+.scroll-lock {
+  overflow: hidden;
+}
+
+textarea {
+  resize: vertical;
+}
+
 h1 {
   margin-top: 0;
   margin-bottom: 20px;
@@ -1535,4 +1543,132 @@ figcaption {
   font-weight: 600;
   font-style: italic;
   font-display: swap;
+}
+
+body.dark .section.pattern-bg {
+  background-image: url(./images/Topography-Pattern-BG-Dark.svg);
+}
+
+body.dark,
+body.dark .nav-link {
+  background-color: var(--grey-900);
+  border-color: var(--grey-700);
+  color: var(--white-00);
+}
+
+body.dark .nav-link-line {
+  background-color: var(--white-00);
+}
+
+body.dark .section.filled,
+body.dark .animation-wrap,
+body.dark .article-panel,
+body.dark .section.banner,
+body.dark .role.card {
+  background-color: var(--grey-800);
+}
+
+body.dark .navigation {
+  background-color: var(--grey-900);
+}
+
+body.dark .menu-icon,
+body.dark .view-mode-icon,
+body.dark .external-link-arrow,
+body.dark .right-arrow,
+body.dark .back-to-top-icon {
+  filter: invert(100%);
+}
+
+body.dark .nav-logo {
+  color: var(--white-00);
+}
+
+body.dark .nav-logo:hover {
+  color: var(--grey-100);
+}
+
+body.dark .gradient-fade {
+  display: none;
+}
+
+body.dark .timeline-item,
+body.dark .scroll-line,
+body.dark .scrolling-track {
+  border-color: #565656;
+}
+
+body.dark .timeline-dot {
+  background-color: var(--grey-900);
+  border-color: var(--white-00);
+}
+
+body.dark .button {
+  background-color: var(--grey-100);
+  color: var(--grey-900);
+}
+
+body.dark .button:hover {
+  background-color: var(--white-00);
+}
+
+body.dark .icon-button,
+body.dark .back-to-top-button {
+  background-color: var(--grey-800);
+}
+
+body.dark .icon-button:hover,
+body.dark .back-to-top-button:hover {
+  background-color: var(--grey-900);
+}
+
+body.dark .inline-link,
+body.dark .cv-contact-link,
+body.dark .arrow-link,
+body.dark .company,
+body.dark .article-panel {
+  color: var(--white-00);
+}
+
+body.dark .inline-link:hover,
+body.dark .nav-link:hover,
+body.dark .cv-contact-link:hover,
+body.dark .arrow-link:hover,
+body.dark .company:hover,
+body.dark .article-panel:hover {
+  color: var(--grey-100);
+}
+
+body.dark .w-input {
+  background-color: var(--grey-700);
+  border: 1px solid var(--grey-900);
+  color: var(--white-00) !important;
+}
+
+body.dark .w-input:hover {
+  border: 1px solid var(--grey-900);
+}
+
+body.dark .w-input::placeholder {
+  color: var(--grey-100) !important;
+}
+
+@media screen and (max-width: 767px) {
+
+  body.dark .nav-link:hover {
+    background-color: var(--grey-800);
+  }
+
+  body.dark .nav-link-wrap {
+    background-color: var(--grey-900);
+  }
+
+  body.dark .icon-button {
+    background-color: transparent;
+  }
+
+  body.dark .icon-button:hover {
+    background-color: transparent;
+  }
+  
 }
