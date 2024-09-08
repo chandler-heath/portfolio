@@ -1,11 +1,10 @@
 :root {
-  --black: black;
-  --black-3: #2a2a2a;
-  --white-smoke: #f4f4f4;
-  --dark-grey: #1a1b1f;
-  --white: white;
-  --black-2: #1d1d1d;
-  --light-grey: #727275;
+  --white-00: #ffffff;
+  --grey-100: #f4f4f4;
+  --grey-700: #525151;
+  --grey-800: #2d2d2d;
+  --grey-900: #1d1d1d;
+  --black-1000: #000000;
 }
 
 .w-layout-grid {
@@ -18,11 +17,19 @@
 }
 
 body {
-  color: var(--black);
+  color: var(--black-1000);
   font-family: Inter, sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 25px;
+}
+
+.scroll-lock {
+  overflow: hidden;
+}
+
+textarea {
+  resize: vertical;
 }
 
 h1 {
@@ -86,7 +93,7 @@ a {
 }
 
 a:hover {
-  color: var(--black-3);
+  color: var(--grey-800);
 }
 
 a:active {
@@ -172,7 +179,7 @@ figcaption {
 }
 
 .section.filled {
-  background-color: var(--white-smoke);
+  background-color: var(--grey-100);
   border-radius: 8px;
   padding-left: 50px;
   padding-right: 50px;
@@ -180,7 +187,7 @@ figcaption {
 }
 
 .section.banner {
-  background-color: var(--white-smoke);
+  background-color: var(--grey-100);
   margin: 0 0 100px;
   padding: 60px 30px;
 }
@@ -216,8 +223,8 @@ figcaption {
 }
 
 .button {
-  background-color: var(--dark-grey);
-  color: #fff;
+  background-color: var(--grey-900);
+  color: var(--white-00);
   letter-spacing: 2px;
   text-transform: uppercase;
   cursor: pointer;
@@ -233,8 +240,8 @@ figcaption {
 }
 
 .button:hover {
-  background-color: var(--dark-grey);
-  color: #fff;
+  background-color: var(--grey-900);
+  color: var(--white-00);
   transform: translate(0, -3px);
   box-shadow: 0 12px 16px -4px #00000040;
 }
@@ -263,7 +270,7 @@ figcaption {
 
 .navigation {
   z-index: 60;
-  background-color: var(--white);
+  background-color: var(--white-00);
   padding: 30px;
   transition: background-color .3s;
 }
@@ -301,7 +308,7 @@ figcaption {
 }
 
 .status-message {
-  color: #fff;
+  color: var(--white-00);
   text-align: center;
   background-color: #202020;
   padding: 9px 30px;
@@ -418,7 +425,7 @@ figcaption {
 }
 
 .tile-text {
-  color: var(--white);
+  color: var(--white-00);
   padding: 40px;
   font-size: 18px;
   font-weight: 400;
@@ -537,7 +544,7 @@ figcaption {
 }
 
 .animation-wrap {
-  background-color: var(--white-smoke);
+  background-color: var(--grey-100);
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -562,12 +569,12 @@ figcaption {
 }
 
 .inline-link {
-  color: var(--black);
+  color: var(--black-1000);
   display: inline;
 }
 
 .inline-link:hover {
-  color: var(--black-3);
+  color: var(--grey-800);
 }
 
 .project-tagline {
@@ -605,7 +612,7 @@ figcaption {
 }
 
 .cv-contact-link {
-  color: var(--black);
+  color: var(--black-1000);
   margin-top: 5px;
   margin-bottom: 5px;
   font-size: 16px;
@@ -615,7 +622,7 @@ figcaption {
 }
 
 .cv-contact-link:hover {
-  color: var(--black-3);
+  color: var(--grey-800);
 }
 
 .cv-header {
@@ -643,7 +650,7 @@ figcaption {
 }
 
 .icon-button {
-  background-color: var(--white-smoke);
+  background-color: var(--grey-100);
   cursor: pointer;
   border-radius: 4px;
   width: 44px;
@@ -677,7 +684,7 @@ figcaption {
 }
 
 .company {
-  color: var(--black);
+  color: var(--black-1000);
   align-items: center;
   margin-bottom: -4px;
   text-decoration: none;
@@ -686,7 +693,7 @@ figcaption {
 }
 
 .company:hover {
-  color: var(--black-3);
+  color: var(--grey-800);
 }
 
 .role {
@@ -715,7 +722,7 @@ figcaption {
 
 .cookie-notice {
   z-index: 60;
-  background-color: #fff;
+  background-color: var(--white-00);
   border-radius: 8px;
   max-width: 420px;
   margin: 15px;
@@ -751,8 +758,8 @@ figcaption {
 }
 
 .timeline-dot {
-  background-color: var(--white);
-  border: 1px solid #000;
+  background-color: var(--white-00);
+  border: 1px solid var(--black-1000);
   border-radius: 999px;
   width: 18px;
   height: 18px;
@@ -802,7 +809,7 @@ figcaption {
 }
 
 .arrow-link {
-  color: var(--black);
+  color: var(--black-1000);
 }
 
 .arrow-link.m40t {
@@ -811,7 +818,7 @@ figcaption {
 
 .back-to-top-button {
   z-index: 60;
-  background-color: var(--white-smoke);
+  background-color: var(--grey-100);
   border-radius: 24px;
   padding: 12px;
   transition: background-color .2s ease-in-out, transform .2s ease-in-out;
@@ -835,9 +842,9 @@ figcaption {
 }
 
 .nav-link {
-  background-color: var(--white);
+  background-color: var(--white-00);
   opacity: .6;
-  color: var(--black-2);
+  color: var(--grey-900);
   text-align: center;
   letter-spacing: .5px;
   text-transform: uppercase;
@@ -861,7 +868,7 @@ figcaption {
 
 .nav-link.w--current {
   opacity: 1;
-  color: #1a1b1f;
+  color: var(--grey-900);
   font-weight: 600;
 }
 
@@ -876,7 +883,7 @@ figcaption {
 }
 
 .nav-link-line {
-  background-color: var(--black);
+  background-color: var(--black-1000);
   height: 2px;
   display: none;
   position: absolute;
@@ -892,8 +899,8 @@ figcaption {
 }
 
 .article-panel {
-  background-color: var(--white-smoke);
-  color: var(--black);
+  background-color: var(--grey-100);
+  color: var(--black-1000);
   border-radius: 8px;
   align-items: center;
   padding: 24px;
@@ -1104,7 +1111,7 @@ figcaption {
   }
 
   .gradient-fade {
-    background-image: linear-gradient(to bottom, var(--white-smoke) 10%, #f4f4f400 100%, transparent);
+    background-image: linear-gradient(to bottom, var(--grey-100) 10%, #f4f4f400 100%, transparent);
     width: 100%;
     padding: 25px 0;
     display: block;
@@ -1206,7 +1213,7 @@ figcaption {
   }
 
   .nav-link-wrap {
-    background-color: var(--white);
+    background-color: var(--white-00);
     box-shadow: 20px 0 20px 20px #0000001a;
   }
 
@@ -1536,4 +1543,132 @@ figcaption {
   font-weight: 600;
   font-style: italic;
   font-display: swap;
+}
+
+body.dark .section.pattern-bg {
+  background-image: url(./images/Topography-Pattern-BG-Dark.svg);
+}
+
+body.dark,
+body.dark .nav-link {
+  background-color: var(--grey-900);
+  border-color: var(--grey-700);
+  color: var(--white-00);
+}
+
+body.dark .nav-link-line {
+  background-color: var(--white-00);
+}
+
+body.dark .section.filled,
+body.dark .animation-wrap,
+body.dark .article-panel,
+body.dark .section.banner,
+body.dark .role.card {
+  background-color: var(--grey-800);
+}
+
+body.dark .navigation {
+  background-color: var(--grey-900);
+}
+
+body.dark .menu-icon,
+body.dark .view-mode-icon,
+body.dark .external-link-arrow,
+body.dark .right-arrow,
+body.dark .back-to-top-icon {
+  filter: invert(100%);
+}
+
+body.dark .nav-logo {
+  color: var(--white-00);
+}
+
+body.dark .nav-logo:hover {
+  color: var(--grey-100);
+}
+
+body.dark .gradient-fade {
+  display: none;
+}
+
+body.dark .timeline-item,
+body.dark .scroll-line,
+body.dark .scrolling-track {
+  border-color: #565656;
+}
+
+body.dark .timeline-dot {
+  background-color: var(--grey-900);
+  border-color: var(--white-00);
+}
+
+body.dark .button {
+  background-color: var(--grey-100);
+  color: var(--grey-900);
+}
+
+body.dark .button:hover {
+  background-color: var(--white-00);
+}
+
+body.dark .icon-button,
+body.dark .back-to-top-button {
+  background-color: var(--grey-800);
+}
+
+body.dark .icon-button:hover,
+body.dark .back-to-top-button:hover {
+  background-color: var(--grey-900);
+}
+
+body.dark .inline-link,
+body.dark .cv-contact-link,
+body.dark .arrow-link,
+body.dark .company,
+body.dark .article-panel {
+  color: var(--white-00);
+}
+
+body.dark .inline-link:hover,
+body.dark .nav-link:hover,
+body.dark .cv-contact-link:hover,
+body.dark .arrow-link:hover,
+body.dark .company:hover,
+body.dark .article-panel:hover {
+  color: var(--grey-100);
+}
+
+body.dark .w-input {
+  background-color: var(--grey-700);
+  border: 1px solid var(--grey-900);
+  color: var(--white-00) !important;
+}
+
+body.dark .w-input:hover {
+  border: 1px solid var(--grey-900);
+}
+
+body.dark .w-input::placeholder {
+  color: var(--grey-100) !important;
+}
+
+@media screen and (max-width: 767px) {
+
+  body.dark .nav-link:hover {
+    background-color: var(--grey-800);
+  }
+
+  body.dark .nav-link-wrap {
+    background-color: var(--grey-900);
+  }
+
+  body.dark .icon-button {
+    background-color: transparent;
+  }
+
+  body.dark .icon-button:hover {
+    background-color: transparent;
+  }
+  
 }
