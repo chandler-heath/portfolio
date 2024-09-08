@@ -1546,7 +1546,7 @@ figcaption {
 }
 
 body.dark .section.pattern-bg {
-  background-image: url(./images/Topography-Pattern-BG-Dark.svg);
+  background-image: url(../images/Topography-Pattern-BG-Dark.svg);
 }
 
 body.dark,
