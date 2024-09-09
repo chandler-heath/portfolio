@@ -1062,7 +1062,7 @@ figcaption {
 
 .contact-description.larger {
   font-size: 28px;
-  font-weight: 300;
+  margin-bottom: 8px;
 }
 
 @media screen and (max-width: 991px) {
