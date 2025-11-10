@@ -522,7 +522,7 @@ figcaption {
 }
 
 .profile-image {
-  border-radius: 8px;
+  border-radius: 16px;
   max-width: 300px;
   margin-right: 50px;
   box-shadow: 0 10px 20px 2px #00000026;
