@@ -17,23 +17,21 @@ This site showcases a collection of work across several key areas:
 ### ✍️ Articles & Talks
 Regular contributor to UX publications and conferences, including:
 - **UX New Zealand 2023**: Speaking on professional wellbeing in UX careers.
-- **UX Collective / Bootcamp**: Writing on foundational research, discovery interviews, and design systems for legacy products.
+- **UX Collective & Bootcamp**: Writing on foundational research, discovery interviews, and design systems for legacy products.
 - **Victoria University of Wellington**: Exploring the human side of healthcare AI.
 
 ### 💼 Experience
 Current Senior Product Designer at **Heidi**, with previous experience at **Kiwibank**, **PivotPoint**, **Modica Group**, and **Eyemagnet**.
 
----
-
 ## Technical Details
 
-This portfolio is built as a highly optimized static site:
+This portfolio is built as a static site:
 
 - **Frontend**: Vanilla HTML5, CSS3, and JavaScript (ES6+).
 - **Libraries**: JavaScript for animation handling and specific UI interactions.
 - **Design Origin**: Initially designed in Figma and exported with Webflow, then hand-tuned for performance and SEO.
 - **SEO & Performance**: Optimized for fast load times, accessibility, and search engine visibility.
 
-## Deployment
+### Deployment
 
 Deploys to [GitHub Pages](https://chandlerheath.nz/) using GitHub Actions. The workflow is defined in the `.github/workflows/deploy.yml` file.
