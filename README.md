@@ -32,6 +32,19 @@ This portfolio is built as a static site:
 - **Design Origin**: Initially designed in Figma and exported with Webflow, then hand-tuned for performance and SEO.
 - **SEO & Performance**: Optimized for fast load times, accessibility, and search engine visibility.
 
-### Deployment
+## Local Development
+
+To preview the site locally during development, run the start script:
+
+```bash
+./start-server.sh
+```
+
+This will start a local server on `http://localhost:3000`.
+
+Press `Ctrl+C` to stop the server when you're done.
+
+
+## Deployment
 
 Deploys to [GitHub Pages](https://chandlerheath.nz/) using GitHub Actions. The workflow is defined in the `.github/workflows/deploy.yml` file.
