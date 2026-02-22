@@ -194,7 +194,7 @@ figcaption {
 
 .section.last {
   margin-top: 100px;
-  padding-bottom: 80px;
+  padding-bottom: 100px;
 }
 
 .section.first {
@@ -631,15 +631,14 @@ figcaption {
   line-height: 40px;
 }
 
-.skills-light {
+.skills-item {
   margin-top: -25px;
   margin-bottom: 25px;
 }
 
-.skills-heavy {
+.skills-header {
   opacity: 1;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-bottom: -12px;
   font-weight: 500;
 }
 
@@ -799,13 +798,6 @@ figcaption {
   grid-template-columns: 1fr 1fr;
   grid-auto-columns: 1fr;
   padding-bottom: 40px;
-}
-
-.highlight-grid {
-  grid-column-gap: 50px;
-  grid-row-gap: 40px;
-  grid-template-rows: auto;
-  margin-top: -20px;
 }
 
 .arrow-link {
@@ -1018,7 +1010,7 @@ p.role-description {
 }
 
 .company-logo {
-  border-radius: 6px;
+  border-radius: 12px;
   height: 50px;
   margin-top: 16px;
   margin-bottom: 24px;
@@ -1125,11 +1117,6 @@ p.role-description {
     padding-bottom: 20px;
   }
 
-  .highlight-grid {
-    grid-column-gap: 40px;
-    grid-template-columns: 1fr;
-  }
-
   .nav-link {
     padding-left: 10px;
     padding-right: 10px;
@@ -1154,7 +1141,7 @@ p.role-description {
   }
 
   .section.last {
-    padding-bottom: 40px;
+    padding-bottom: 60px;
   }
 
   .section.scroll-track {
@@ -1257,10 +1244,6 @@ p.role-description {
 
   .timeline-dot.mobile-only {
     display: block;
-  }
-
-  .highlight-grid {
-    grid-template-columns: 1fr;
   }
 
   .nav-link {
